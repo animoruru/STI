@@ -1,0 +1,14 @@
+1. app start & stop (UR-1)
+ 1.1 start: “java -jar AudioCataloger.jar [DuplicatesOnly] HtmlOutputFileName CsvOutputFileName StartingDirectory1 [... StartingDirectoryN]”
+  1.1.1 check messeges (DS-3)(usage & error messages: use correct parameters, no parameters and ommited parameters)
+ 1.2 stop: Ctrl+C to the console window, which holds the running application.
+2. app configuration (UR-2)
+ 2.1 check DS-2: Command line parameters - "[DuplicatesOnly]", "HtmlOutputFileName", "CsvOutputFileName", "StartingDirectory1", "[... StartingDirectoryN]".
+ 2.2 check DS-2.2: If some mandatory command line parameter is omitted, the application should shut down displaying standard usage-message (see DS-3.1).
+3. results
+ 3.1 check log (UR-3)(DS-4)
+ 3.2 check list (DS-5)(supported formats: mp3, flac, wav, ogg, wma; supported size <= 2GB)
+  3.2.1 check HTML & CSV output files
+
+
+
